@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+}
+h1 {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+.menu {
+    background-color: #dddddd;
+    text-align: center;
+    padding: 12px;
+    margin: 0;
+}
+.menu a {
+    color: darkgreen;
+    text-decoration: none;
+    margin: 8px;
+}
+.conteudo {
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+h2 { color: darkgreen; }
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 15px;
+}
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/* Tabelas dentro das margens verdes */
+main,
+.conteudo,
+.container {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  overflow-wrap: anywhere;
+}
+
+th, td {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.table-responsive {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+/* Evita que o conteúdo interno ultrapasse as margens do site */
+img {
+  max-width: 60%;
+  height: auto;
+}
+
+
+/* As tabelas ficam dentro das mesmas margens do conteúdo */
+.tabela-datas,
+.tabela-presidentes {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+.tabela-datas table,
+.tabela-presidentes table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0;
+    table-layout: fixed;
+}
+
+.tabela-datas th,
+.tabela-datas td,
+.tabela-presidentes th,
+.tabela-presidentes td {
+    overflow-wrap: anywhere;
+    padding: 8px;
+}
+
+.conteudo {
+    overflow: hidden;
+    box-sizing: border-box;
+}
